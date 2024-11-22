@@ -6,7 +6,7 @@ import Products from '../../components/products-list';
 
 
 const ProductsPage = () => {
-    //si necesito hacer un cambio en la llamada, ya se hace en otro lugar. No necesito modificar aca.
+    //si necesito hacer un cambio en la llamada, se hace en el hook. No necesito modificar aca.
     const {data, error, isFetching} = useFetchProducts();
 
     return (
